@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+
+#header{
+background-image: linear-gradient(rgb(26, 91, 189), rgb(45, 122, 237) );
+width: 100%;
+height: 80vh;
+}
+
+.navabar i{
+    color: white !important;
+    margin-left: 35px;
+}
+
+#header{
+    color: white;
+}
+
+#loginorsignup span{
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.navabar {
+    display: flex;
+    padding-right: 15px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#logoofheadigns span{
+    font-weight: bold;
+    color: rgb(0,0,0);
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+#logoofheadigns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#alltheassist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(251, 251, 251);
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#Findanddownload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    color: rgb(251, 251, 251);
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* padding-left: 20px; */
+    font-family:cursive;
+}
+
+#search{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+    border:none;
+    letter-spacing: 2px;
+}
+
+#search span{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width:50%;
+    padding: 10px;
+}
+
+#search #placeholder{
+    padding:5px;
+    width: 90%;
+    margin-right:5px;
+    margin-left:5px;
+    border:none;
+}
+
+#search #slect{
+    border-right: 1 px solid black;
+    border-top:0;
+    border-bottom:0;
+    border-left:0;
+    margin-right: 5px;
+}
+
+.popularsearches{
+    width: 100%;
+    margin-top:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularsearches button{
+    margin-left: 15px;
+}
+
+#images{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#images span img{
+border-radius: 90%;
+}
+
+#images span img{
+    margin-top: 12px;
+}
+
+#img{  
+    border-radius: 80%;
+    width:100px;
+    height: 100px;
+    background-color: rgb(2, 235, 223);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#img span{
+    padding-top:35px;
+}
+
+#workingarea{
+    color:black;
+    background-color: whitesmoke;
+}
+
+#Explore{
+    margin-top: 50px;
+}
+
+#Explore span{
+    color:rgb(5, 147, 218);
+    font-weight: bold;
+}
+
+.Grid-container{
+    display:grid;
+    text-align:center;
+    padding:20px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    border-radius: 35px;
+}
+
+#grid-items-1{
+    grid-row: 1 / span 2;
+    grid-column: 1/ span 2;
+}
+
+.area{
+    background-color: rgb(191, 192, 192);
+    padding: 15px;
+}
+
+.caption-list--image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.area h3{
+    margin-top: 15px;
+}
+#footer{
+    background-color: rgb(0, 45, 61);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#footer table td{
+    padding: 5px 15px;
+    color: white;
+}
+
+#footer table th{
+    margin-top: 10px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#medias{
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#medias span{
+    padding-left: 10px;
+}
+
+#mediaslogos{
+    margin-top: 35px;
+    width:fit-content;
+    height:fit-content;
+}
+
+#facebook{
+    background-color: white;
+    /* padding-top: 10px; */
+    width:80px;
+    height: 80px;
+    color: blue;
+}
+#twitter{
+    /* padding-top: 10px; */
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: aqua;
+}
+#printerset{
+    /* padding-top: 10px; */
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: red;
+}
+#instagram{
+    background-color: white;
+    /* padding-top: 10px; */
+    width:80px;
+    height: 80px;
+    color: pink;
+}
+#youtube{
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: red;
+    /* padding-top: 10px; */
+}
+
+.logosofmedia{
+    /* padding:10px 5px; */
+    width: 20px;
+    padding-right: 8px;
+    padding-top: 10px;
+    /* padding-bottom: px; */
+}
+
+#leastwords{
+    background-color: rgb(0, 45, 61);
+    padding-left: 20px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    color: white;
+}
+
+#leastwords span{
+    padding: 5px;
+}
+
+.slectinlastwords{
+    color: white;
+    border: none !important;
+    float: right !important;
+    background-color: rgb(0, 45, 61);
+    width: 100% !important;
+    padding-right: 50% !important;
+    background-color: none;
+    border: 1px solid white !important;
+}
+
+.card{
+    background-color: rgb(1, 94, 128);
+    color: rgb(255, 255, 255);
+    border-radius:0px;
+}
+
+#table-2 td{
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#table-2-1{
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 80px;
+}
+
+#patanahi{
+    border-radius: 50;
+    padding: 10px;
+}
+
+#patanahi img{
+    /* border-radius: 200px; */
+    border-top-right-radius: 200px;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.btns{
+    background-color: rgba(255,255,255,40%);
+    border: none !important;
+    border-radius: 5px;
+    padding: 5px !important;
+}
+.btns:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218) !important;
+    border: none !important;
+}
