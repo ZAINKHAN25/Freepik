@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- my personal css in this -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="fatherofall">
+        <div id="header">
+            <div class="navabar">
+                <i class="fa-solid fa-bars fa-2x"></i>
+                <span id="loginorsignup">
+                    <b>Log in</b>
+                    <span>Sign Up</span>
+                </span>
+            </div>
+            <div class="headerheadigns">
+                <span id="logoofheadigns">
+                    <img style="width: 80px;" src="https://cdn-icons-png.flaticon.com/512/18/18551.png">
+                    <span>freepik</span>
+                </span>
+                <span id="alltheassist">All the assets you need, in one place</span>
+                <span id="Findanddownload">Find and download the best high-quality photos, designs, and mockups</span>
+            </div>
+            <div id="search">
+                <span>
+                    <select id="slect">
+                        <option>Assets</option>
+                        <option>Collections</option>
+                        <option>Free</option>
+                        <option>Premiere</option>
+                        <option>Vectors</option>
+                        <option>Photos</option>
+                        <option>PSD</option>
+                        <option>Icons</option>
+                    </select> 
+                    <input id="placeholder" type="search" placeholder="Search all Assets">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </div>
+            <div class="popularsearches">
+                <button type="button" style="background-color: rgba(255,255,255,40%)" class="btn btn-secondary btn-sm"><i class="fa-solid fa-magnifying-glass"></i> Text Effect</button>
+                <button type="button" style="background-color: rgba(255,255,255,40%)" class="btn btn-secondary btn-sm"><i class="fa-solid fa-magnifying-glass"></i> Ramadan</button>
+                <button type="button" style="background-color: rgba(255,255,255,40%)" class="btn btn-secondary btn-sm"><i class="fa-solid fa-magnifying-glass"></i> Business card mockup</button>
+            </div>
+                <div id="images">
+                        <img id="img" src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg">
+                        <span>Vectors.</span>
+                        <img id="img" src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg">
+                        <span>Vectors.</span>
+                        <img id="img" src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg">
+                        <span>Vectors.</span>
+                        <img id="img" src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg">
+                        <span>Vectors.</span>
+                </div>
+        </div>
+
+
+        <div id="workingarea">
+            <figure class="text-center">
+                <blockquote id="Explore" class="blockquote">
+                  <p><span>Explore</span> trending categories on Freepik</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Check what’s popular on Freepik and make your project look trendy and professional.
+                </figcaption>
+              </figure>
+
+
+              <!-- images section -->
+            <div class="Grid-container">
+                <span id="grid-items-1"><img src="data:image/png;base64,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"></span>
+                <span id="grid-items-2"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-3"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-4"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-5"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-6"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-7"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-8"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+                <span id="grid-items-9"><img src="https://img.freepik.com/free-photo/_23-2150043120.jpg?size=240&ext=jpg"></span>
+            </div>
+            <div class="area">
+                <h1>Unlock your inner creator</h1>
+                <p>Get the inspiration you need with these collections carefully selected to boost your project’s engagement.</p>
+                <img class="caption-list--image" src="https://img.freepik.com/premium-photo/st-patrick-s-day-seamless-pattern-white-background-nature-background-with-watercolor-clover_605509-741.jpg?size=338&amp;ext=jpg" title="Saint Patrick's Day" loading="lazy">
+                <img class="caption-list--image" src="https://img.freepik.com/premium-photo/st-patrick-s-day-seamless-pattern-white-background-nature-background-with-watercolor-clover_605509-741.jpg?size=338&amp;ext=jpg" title="Saint Patrick's Day" loading="lazy">
+                <img class="caption-list--image" src="https://img.freepik.com/premium-photo/st-patrick-s-day-seamless-pattern-white-background-nature-background-with-watercolor-clover_605509-741.jpg?size=338&amp;ext=jpg" title="Saint Patrick's Day" loading="lazy">
+                <center><h3> The smartest choice for creatives like you</h3> 
+                    <p>Whether you’re looking for designs or photographs, you’ll find the perfect asset on Freepik.</p>
+                </center>
+                <ul class="row">
+                    <li class="col__xs--12 col__sm--6 col__lg--12">
+                        <i class="icon icon--star icon--degree"></i>
+                        <h3>High-quality stock content</h3>
+                        <p class="subtitle">
+                            Download scroll-stopping images of the best quality to make your projects look professional.                </p>
+                    </li>
+                    <li class="col__xs--12 col__sm--6 col__lg--12">
+                        <i class="icon icon--thumb-up icon--degree"></i>
+                        <h3>Ready-to-use assets</h3>
+                        <p class="subtitle">
+                            Access thousands of images and designs ready-to-publish and get your project ready double quick.                </p>
+                    </li>
+                    <li class="col__xs--12 col__sm--6 col__lg--12">
+                        <i class="icon icon--search icon--degree"></i>
+                        <h3>Guaranteed search results</h3>
+                        <p class="subtitle">
+                            There’s an image and style for every project, whatever your needs are.                </p>
+                    </li>
+                    <li class="col__xs--12 col__sm--6 col__lg--12">
+                        <i class="icon icon--refresh icon--degree"></i>
+                        <h3>Fresh content everyday</h3>
+                        <p class="subtitle">
+                            Our library is updated on a daily basis so you can find the newest and trendiest photos and designs.                </p>
+                    </li>
+                </ul>
+                <img src="https://freepik.cdnpk.net/img/home/resources.png" title="Freepik Resources" loading="lazy">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <p class="title">
+                        Join Freepik’s <strong>creator community</strong>            </p>
+                    <p>Behind every stock image, there’s a creative mind. You can also create content and sell it on Freepik</p>
+                    <a href="https://contributor.freepik.com" class="button" target="_blank" rel="noopener noreferrer">
+                        Sell content            </a>
+                </div>
+                <picture>
+                    <source srcset="https://freepik.cdnpk.net/img/home/community.webp" type="image/webp">
+                    <source srcset="https://freepik.cdnpk.net/img/home/community.png" type="image/png">
+                    <img src="https://freepik.cdnpk.net/img/home/community.png" title="Join Freepik" loading="lazy">
+                </picture>
+            </div>
+        
+        
+        
+        </div>
+        <div class="row alignl font-sm">
+            <div class="col__xs--12 col__sm--6 col__md--3 footer__menu footer__link">
+                <input type="checkbox" id="footer-content">
+                <label for="footer-content" class="font-h6 first heading-inverted font-md" tabindex="0">Content</label>
+                <ul class="footer-content-list font-sm">
+                                                    <li><a class="link-inverted" href="/calendar">Calendar of festivities</a></li>
+                                                <li><a class="link-inverted" href="/new">New assets</a></li>
+                    <li><a class="link-inverted" href="/popular">The most popular content</a></li>
+                    <li><a class="link-inverted" href="/tags">Search trends</a></li>
+                    <li><a class="link-inverted" href="https://www.freepik.com/blog/">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col__xs--12 col__sm--6 col__md--3 footer__menu footer__link">
+                <input type="checkbox" id="footer-information">
+                <label for="footer-information" class="font-h6 first heading-inverted font-md" tabindex="0">Information</label>
+                <ul class="footer-content-list font-sm">
+                                                <li><a id="footer-plans-pricing-link" class="link-inverted" href="https://www.freepik.com/pricing">Pricing</a></li>
+                    <li><a class="link-inverted" href="https://www.freepikcompany.com/about_us">About us</a></li>
+                                                    <li><a class="link-inverted" href="https://www.freepikcompany.com/business" target="_blank" rel="nofollow noopener noreferrer">Business</a></li>
+                                                <li><a class="link-inverted" href="https://www.freepikcompany.com/jobs">Jobs</a></li>
+                    <li><a class="link-inverted" href="https://contributor.freepik.com" target="_blank" rel="noopener noreferrer">Sell your content</a></li>
+                </ul>
+            </div>
+            <div class="col__xs--12 col__sm--6 col__md--3 footer__menu">
+                <div class="row">
+                    <div class="full-width footer__menu footer__link">
+                        <input type="checkbox" id="footer-legal">
+                        <label for="footer-legal" class="font-h6 first heading-inverted font-md" tabindex="0">Legal</label>
+                        <ul class="footer-content-list font-sm">
+                                                                <li><a class="link-inverted" href="https://www.freepikcompany.com/legal#nav-freepik" target="_blank" rel="noopener noreferrer">Terms and conditions</a></li>
+                            <li><a class="link-inverted" href="https://www.freepikcompany.com/legal#nav-freepik-license" target="_blank" rel="noopener noreferrer">License agreement</a></li>
+                            <li><a class="link-inverted" href="https://www.freepikcompany.com/privacy" target="_blank" rel="noopener noreferrer">Privacy policy</a></li>
+                            <li><a class="link-inverted" href="https://www.freepikcompany.com/copyright" target="_blank" rel="noopener noreferrer">Copyright information</a></li>
+                            <li><a class="link-inverted" href="https://www.freepikcompany.com/cookie" target="_blank" rel="noopener noreferrer">Cookies policy</a></li>
+                            <li id="link-cookie-settings"><button class="link link-inverted ot-sdk-show-settings" id="ot-sdk-btn">Cookies settings</button></li>
+                        </ul>
+                    </div>
+                    <div class="full-width footer__menu footer__link">
+                        <input type="checkbox" id="footer-help">
+                        <label for="footer-help" class="font-h6 first heading-inverted font-md" tabindex="0">Support</label>
+                        <ul class="footer-content-list font-sm">
+                            <li><a class="link-inverted" href="https://support.freepik.com/hc/en-us">FAQ</a></li>
+                            <li><a class="link-inverted" href="https://www.freepik.com/profile/support">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col__xs--12 col__sm--6 col__md--3 footer__menu alignl">
+                <label class="font-h6 block first heading-inverted font-md">Social media</label>
+
+                <ul class="row mg-bottom-lv3">
+                    <li class="pd-lv1 pd-y-none pd-bottom-lv2-i">
+                        <a href="https://www.facebook.com/Freepik" target="_blank" rel="nofollow noopener noreferrer" class="button button--sm button--icon button--facebook">
+                            <i class="icon--facebook"></i>
+                        </a>
+                    </li>
+                    <li class="pd-lv1 pd-y-none pd-bottom-lv2-i">
+                        <a href="https://twitter.com/freepik" target="_blank" rel="nofollow noopener noreferrer" class="button button--sm button--icon button--twitter">
+                            <i class="icon--twitter"></i>
+                        </a>
+                    </li>
+                    <li class="pd-lv1 pd-y-none pd-bottom-lv2-i">
+                        <a href="https://www.pinterest.es/freepik/" target="_blank" rel="nofollow noopener noreferrer" class="button button--sm button--icon button--pinterest">
+                            <i class="icon--pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="pd-lv1 pd-y-none pd-bottom-lv2-i">
+                        <a href="https://www.instagram.com/freepik" target="_blank" rel="nofollow noopener noreferrer" class="button button--sm button--icon button--instagram">
+                            <i class="icon--instagram"></i>
+                        </a>
+                    </li>
+                    <li class="pd-lv1 pd-y-none pd-bottom-lv2-i">
+                        <a href="https://www.youtube.com/channel/UC9wPXN2TIWoUamqONb7v8Pw" target="_blank" rel="nofollow noopener noreferrer" class="button button--sm button--icon button--youtube">
+                            <i class="icon--youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="newsletter col pd-none-i mg-none-i hide-logged">
+                    <p class="mg-none push-right-i text__general--text-inverted font-sm semibold opacity-6 mg-bottom-lv2-i">Get exclusive assets sent straight to your inbox</p>
+
+                    <a href="https://id.freepikcompany.com/v2/sign-up?client_id=freepik&amp;lang=en" class="auth-modal tabs__link button button--md button--flat" data-modal="modal-login" data-tab="tab-register">
+                        <span class="text__general--text-inverted">Sign up</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+
+        </div>
+
+
+
+
+
+    </div>
+    <!-- my javascript code -->
+    <script src="app.js"></script>
+    <!-- java script bootstrap code  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+
+
+  <!-- my github token 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 -->
+</html>
