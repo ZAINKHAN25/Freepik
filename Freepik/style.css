@@ -174,9 +174,10 @@ border-radius: 90%;
     text-align:center;
     padding:20px;
     row-gap: 5px;
+    column-gap: 5px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto;
-    border-radius: 35px;
+    border-radius: 10%;
 }
 
 #grid-items-1{
@@ -185,7 +186,7 @@ border-radius: 90%;
 }
 
 .area{
-    background-color: rgb(191, 192, 192);
+    background-color: rgb(239, 255, 255);
     padding: 15px;
 }
 
@@ -196,4 +197,155 @@ border-radius: 90%;
 
 .area h3{
     margin-top: 15px;
+}
+#footer{
+    background-color: rgb(0, 45, 61);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#footer table td{
+    padding: 5px 15px;
+    color: white;
+}
+
+#footer table th{
+    margin-top: 10px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#medias{
+    float: right;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#medias span{
+    padding-left: 10px;
+}
+
+#mediaslogos{
+    margin-top: 35px;
+    width:fit-content;
+    height:fit-content;
+}
+
+#facebook{
+    background-color: white;
+    /* padding-top: 10px; */
+    width:80px;
+    height: 80px;
+    color: blue;
+}
+#twitter{
+    /* padding-top: 10px; */
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: aqua;
+}
+#printerset{
+    /* padding-top: 10px; */
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: red;
+}
+#instagram{
+    background-color: white;
+    /* padding-top: 10px; */
+    width:80px;
+    height: 80px;
+    color: pink;
+}
+#youtube{
+    background-color: white;
+    width:80px;
+    height: 80px;
+    color: red;
+    /* padding-top: 10px; */
+}
+
+.logosofmedia{
+    /* padding:10px 5px; */
+    width: 20px;
+    padding-right: 8px;
+    padding-top: 10px;
+    /* padding-bottom: px; */
+}
+
+#leastwords{
+    background-color: rgb(0, 45, 61);
+    padding-left: 20px;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    color: white;
+}
+
+#leastwords span{
+    padding: 5px;
+}
+
+.slectinlastwords{
+    color: white;
+    border: none !important;
+    float: right !important;
+    background-color: rgb(0, 45, 61);
+    width: 100% !important;
+    padding-right: 50% !important;
+    background-color: none;
+    border: 1px solid white !important;
+}
+
+.card{
+    background-color: rgb(1, 94, 128);
+    color: rgb(255, 255, 255);
+    border-radius:0px;
+}
+
+#table-2 td{
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#table-2-1{
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 80px;
+}
+
+#patanahi{
+    border-radius: 50;
+    padding: 10px;
+}
+
+#patanahi img{
+    /* border-radius: 200px; */
+    border-top-right-radius: 200px;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.btns{
+    background-color: rgba(255,255,255,40%);
+    border: none !important;
+    border-radius: 5px;
+    padding: 5px !important;
+}
+.btns:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218) !important;
+    border: none !important;
+}
+
+#picno1{
+    border-top-left-radius: 50px ;
 }
